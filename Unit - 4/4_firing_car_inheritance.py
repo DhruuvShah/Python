@@ -1,3 +1,5 @@
+"""Demonstrate a FiringCar subclass with inherited car details and a fire method."""
+
 class Car:
     def __init__(self, model, speed, price):
         self.model = model

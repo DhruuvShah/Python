@@ -1,3 +1,5 @@
+"""Print numbers from 1 to 100 not divisible by the specified prime numbers."""
+
 for number in range(1,101):
     if(number % 2 != 0 and
        number % 3 != 0 and

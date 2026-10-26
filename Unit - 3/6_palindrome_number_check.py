@@ -1,3 +1,5 @@
+"""Check whether an entered number is a palindrome."""
+
 def is_palindrome(number):
     original = str(number)
     return original == original[::-1]

@@ -1,3 +1,5 @@
+"""Manage Student records with SQLite CRUD operations: insert, read, update, and delete."""
+
 import sqlite3
 
 connect = sqlite3.connect("university.db")

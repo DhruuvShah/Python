@@ -1,3 +1,15 @@
+"""  Write a Python program to create a student class (id, Name, mid1_marks, mid2_marks,  
+quiz_marks). Create a student objects and write a function marksList() to display student’s  
+result as given below:  
+ROLL NUMBER:  
+NAME:  
+MID1:  
+MID2:  
+QUIZ:  
+TOTAL: MID1+MID2+QUIZ  
+RESULT: A GRADE (IF TOTAL>=80), B GRADE (TOTAL<80 and TOTAL>=60), C  
+GRADE (TOTAL>=50 and TOTAL<60) """
+
 class Student:
     def __init__(self, student_id, name, mid1, mid2, quiz):
         self.student_id = student_id

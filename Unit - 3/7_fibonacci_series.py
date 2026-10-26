@@ -1,3 +1,5 @@
+"""Print the requested number of terms in the Fibonacci series."""
+
 n = int(input("How many terms? "))
 a= 0
 b= 1

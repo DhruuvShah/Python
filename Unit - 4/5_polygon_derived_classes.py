@@ -1,3 +1,5 @@
+"""Demonstrate polygon area calculation using triangle, rectangle, and square subclasses."""
+
 class Polygon:
     def area(self):
         raise NotImplementedError("Subclass must implement area()")

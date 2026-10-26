@@ -1,3 +1,5 @@
+"""Find the second smallest and second largest distinct values in a list."""
+
 numbers = list(map(int,input("Enter number separated by space: ").split()))
 temp_numbers = sorted(set(numbers))
 

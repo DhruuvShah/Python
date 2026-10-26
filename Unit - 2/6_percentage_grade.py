@@ -1,3 +1,5 @@
+# Calculate Grade from Percentage
+
 percentage = float(input("Enter percentage: ")) 
 if percentage >= 90: 
     grade = "O" 

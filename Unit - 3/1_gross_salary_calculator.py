@@ -1,3 +1,5 @@
+"""Calculate an employee's gross salary using HRA and DA salary slabs."""
+
 basic = float(input("Enter basic salary: "))
 
 if basic <= 1000:

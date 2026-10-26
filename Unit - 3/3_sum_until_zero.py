@@ -1,3 +1,5 @@
+"""Sum user-entered numbers until the user enters zero."""
+
 total = 0
 
 while True:

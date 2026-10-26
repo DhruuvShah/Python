@@ -1,4 +1,6 @@
-import employee 
+# Employee Module – Gross and Net Salary 
+
+import employee
 
 basic = float(input("Enter basic salary: ")) 
 da = employee.DA(basic) 

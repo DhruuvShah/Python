@@ -1,3 +1,5 @@
+"""Calculate the sum of the reciprocal series from 1/8 through 1/N."""
+
 n= int(input("Enter a number: "))
 total = 0.0
 

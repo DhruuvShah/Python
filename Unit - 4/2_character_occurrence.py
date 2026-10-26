@@ -1,3 +1,5 @@
+"""Count occurrences of a specified character in a string without built-in counting methods."""
+
 text = input("Enter a string: ")
 target = input("Enter the character to count: ")
 count = 0
