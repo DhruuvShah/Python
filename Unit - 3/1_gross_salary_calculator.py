@@ -2,7 +2,7 @@
 
 basic = float(input("Enter basic salary: "))
 
-if basic <= 1000:
+if basic <= 10000:
     hra_rate = 0.20
     da_rate = 0.80
 elif basic <= 20000:
