@@ -2,7 +2,7 @@
 
 percentage = float(input("Enter percentage: ")) 
 if percentage >= 90: 
-    grade = "O" 
+    grade = "A+" 
 elif percentage >= 80: 
     grade = "A" 
 elif percentage >= 70: 
