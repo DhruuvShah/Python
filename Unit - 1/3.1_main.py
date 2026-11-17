@@ -1,6 +1,7 @@
 # Employee Module – Gross and Net Salary 
 
-import employee
+import importlib
+employee = importlib.import_module("3_employee")
 
 basic = float(input("Enter basic salary: ")) 
 da = employee.DA(basic) 
